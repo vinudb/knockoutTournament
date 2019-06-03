@@ -9,22 +9,15 @@ import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
 //import { firebase } from './firebase/firebase';
 import LoadingPage from './components/LoadingPage';
-import ApolloClient, { gql }  from "apollo-boost";
-import { ApolloProvider } from "react-apollo";
 import DashboardPage from './components/DashboardPage';
 
-export const client = new ApolloClient({
-  uri: "https://fcg-fe-test.herokuapp.com/"
-});
 
 
 const store = configureStore();
 const jsx = (
-  <ApolloProvider client={client}>
     <Provider store={store}>
       <AppRouter />
     </Provider>
-  </ApolloProvider>
 );
 let hasRendered = false;
 const renderApp = () => {
