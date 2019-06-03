@@ -1,0 +1,64 @@
+.header {
+  background: $dark-blue;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.title{
+  text-align: center;
+}
+
+.header__title {
+  color: white;
+  text-decoration: none;
+  h1 {
+    margin: 0;
+  }
+}
+
+.small-grey-labels{
+    font-size: 1.1rem;
+    margin: 0;
+    color: grey;
+}
+
+.titles{
+  font-weight: bold;
+}
+
+.titles-game{
+  font-weight: bold;
+  margin: 0;
+  color: $orange;
+  text-align: center;
+}
+
+.titles-vs{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+
+.titles-game-winner{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: green;
+}
+
+.titles-game-loser{
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  color: red;
+}
+
+.titlesResult{
+  font-weight: bold;
+  color: $orange;
+}

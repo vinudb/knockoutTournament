@@ -1,0 +1,39 @@
+.button {
+  background: $orange;
+  border: 1px solid;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+}
+
+.round-button {
+  margin-top: 15px;
+  display:block;
+  width:4.5rem;
+  height:4.5rem;
+  line-height:4.5rem;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color:#f5f5f5;
+  text-align:center;
+  text-decoration:none;
+  background: $orange;
+  float: left;
+  font-size:20px;
+  font-weight:bold;
+}
+.round-button:hover {
+  background: #777555;
+}
+
+.button--link {
+  background: none;
+}
+
+.button--secondary {
+  background: #888;
+}
